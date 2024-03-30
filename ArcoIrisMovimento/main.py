@@ -1,16 +1,29 @@
-# This is a sample Python script.
+import turtle
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+tela = turtle.Screen()
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+caneta = turtle.Turtle()
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+def desenha_semi_circulo(cor, raio, valor):
+    caneta.color(cor)
+    caneta.circle(raio, -180)
+    caneta.up()
+    caneta.setpos(valor, 0)
+    caneta.down()
+    caneta.right(180)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+cores = ['violet', 'indigo', 'blue', 'green', 'yellow', 'orange', 'red']
+
+tela.setup(600, 600)
+
+tela.bgcolor('black')
+
+caneta.right(90)
+caneta.width(10)
+caneta.speed(7)
+
+for i in range(7):
+    desenha_semi_circulo(cores[i], 10 * (i + 8), -10 * (i + 1))
+caneta.hideturtle()
