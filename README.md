@@ -1,9 +1,8 @@
 ## Faculdade Unisociesc
-## Prof. Esp. Randerson Melville
-## Disciplina: Computação Gráfica e Realidade Virtual
-## Projetos com Biblioteca Turtle do Python
-#Data de entrega: 05/04/2024
-
+Prof. Esp. Randerson Melville <br/>
+Disciplina: Computação Gráfica e Realidade Virtual <br/>
+Projetos com Biblioteca Turtle do Python <br/>
+> Data de entrega: 05/04/2024
 
 ## Como enviar a solução
 
@@ -12,7 +11,18 @@
 4. Teste sua solução localmente para garantir que funcione conforme esperado.
 5. Submeta sua solução como um pull request:
 
+## Divisão de grupos e projetos
 
++ Grupo 1: Desenho de uma Casa com Jardim
++ Grupo 2: Labirinto Animado
++ Grupo 3: Arco-Íris em Movimento
++ Grupo 4: Estrelas Cadentes
++ Grupo 5: Espiral em 3D
++ Grupo 6: Pintura com Texturas
++ Grupo 7: Círculos Concêntricos em Movimento
++ Grupo 8: Desenho de um Fractal
++ Grupo 9: Borboletas Voando
++ Grupo 10: Sombra de um Objeto em Movimento
 
 ## Projetos
 
