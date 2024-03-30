@@ -2,6 +2,7 @@
 ## Prof. Esp. Randerson Melville
 ## Disciplina: Computação Gráfica e Realidade Virtual
 ## Projetos com Biblioteca Turtle do Python
+#Data de entrega: 05/04/2024
 
 
 ## Como enviar a solução
