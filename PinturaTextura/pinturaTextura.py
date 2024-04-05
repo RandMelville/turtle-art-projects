@@ -2,7 +2,7 @@ import turtle
 import random
 from PIL import Image
 
-image_path = "Terra.jpg"
+image_path = "PinturaTextura/Terra.jpg"
 image = Image.open(image_path)
 image.save("terra.gif")
 
@@ -32,7 +32,7 @@ turtle.speed(0)
 turtle.hideturtle()  
 turtle.penup()  
 
-num_stars = 60
+num_stars = 45
 for _ in range(num_stars):
     x = random.randint(-screen.window_width() // 2, screen.window_width() // 2)
     y = random.randint(-screen.window_height() // 2, screen.window_height() // 2)
