@@ -4,6 +4,11 @@ Disciplina: Computação Gráfica e Realidade Virtual <br/>
 Projetos com Biblioteca Turtle do Python <br/>
 > Data de entrega: 05/04/2024
 
+## Resultado:
+
+![Results](imagem.png)
+
+
 ## Como enviar a solução
 
 1. Clone este repositório para o seu ambiente de desenvolvimento local:
