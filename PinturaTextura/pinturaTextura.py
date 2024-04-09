@@ -6,14 +6,19 @@ image_path = "PinturaTextura/Terra.jpg"
 image = Image.open(image_path)
 image.save("terra.gif")
 
+background_image_path = "PinturaTextura/estrela.png"
+background_image = Image.open(background_image_path)
+background_image.save("space.gif")
+
 screen = turtle.Screen()
 screen.bgcolor("black")
 screen.title("Planeta Terra com Estrelas")
 
 t = turtle.Turtle()
-t.speed(0)  
+t.speed(0)
 
-screen.addshape("terra.gif")  
+screen.addshape("terra.gif")
+screen.addshape("space.gif")
 t.shape("terra.gif")
 
 t.penup()
@@ -21,24 +26,19 @@ t.goto(0, 0)
 t.pendown()
 
 def draw_star(size):
-    for _ in range(5):
-        turtle.forward(size)
-        turtle.right(144)
+    turtle.shape('space.gif')
+    turtle.stamp()
 
-screen = turtle.Screen()
-screen.setup(width=600, height=400)
-screen.bgcolor("black")
-turtle.speed(0)  
-turtle.hideturtle()  
-turtle.penup()  
+turtle.penup()
+turtle.color("white")
+turtle.hideturtle()
 
-num_stars = 45
+num_stars = 15
 for _ in range(num_stars):
     x = random.randint(-screen.window_width() // 2, screen.window_width() // 2)
     y = random.randint(-screen.window_height() // 2, screen.window_height() // 2)
     size = random.randint(5, 20)
     turtle.goto(x, y)
-    turtle.color("white")
     turtle.begin_fill()
     draw_star(size)
     turtle.end_fill()
